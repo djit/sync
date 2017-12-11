@@ -103,9 +103,9 @@ class SyncManager(object):
 if __name__ == '__main__':
     # get args
     parser = argparse.ArgumentParser(description='sync process')
-    parser.add_argument('--id', dest='id', help='source name')
+    parser.add_argument('--source', dest='source', help='source name')
     args = parser.parse_args()
-    source = args.id
+    source = args.source
 
     # instantiate syncManager
     manager = SyncManager(source)
