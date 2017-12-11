@@ -4,7 +4,7 @@ An xml file downloader and file based mapping tool
 
 ## Installation
 
-TODO: Describe the installation process
+TODO: use data.gov xml source example
 
 ## Usage
 
