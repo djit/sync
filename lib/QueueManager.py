@@ -12,7 +12,7 @@ def start(imageslist):
             aws_secret_access_key='AWS_SECRET_ACCESS_KEY',
         )
 
-        bucket = client.Bucket('dev.queue.caza.ae')
+        bucket = client.Bucket('AWS_S3_BUCKET_NAME')
         for imgs in imageslist:
             index = imageslist.index(imgs) + 1
             images = json.dumps(imgs)
